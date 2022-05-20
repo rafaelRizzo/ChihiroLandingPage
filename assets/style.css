@@ -5,6 +5,10 @@
   padding: 0;
   scroll-behavior: smooth;
 }
+:root {
+  scrollbar-color: rgba(210, 210, 210, 0.1) rgba(46, 54, 69, 1) !important;
+  scrollbar-width: thin !important;
+}
 
 ::-webkit-scrollbar {
   display: none;
@@ -81,7 +85,6 @@ audio {
   justify-content: center;
   align-items: center;
   width: 100vw;
-  height: 100vh;
   color: #fff;
   scroll-snap-align: start;
 }
